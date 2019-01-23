@@ -1,0 +1,20 @@
+Intro to DeepMTT
+
+Overview
+
+This is a program designed based on a novel Deep Maneuvering Target Tracking (DeepMTT) algorithm, which improves the maneuvering target tracking performance by utilizing a deep neural network to fecth the properties of different kinds of maneuvering targets.
+
+
+Instructions:
+
+1 Requirements: Tensorflow version 1.0 or later.
+
+2 The folder "filterpy" should be located at the place where our codes can find it.
+
+3 The folder "Models" contains the fine-tuned model for our DeepMTT algorithm.
+
+4 The code named "Simulations_of_DeepMTT.py" is the final simulation code. We can run this code to check the performance of our DeepMTT algorithm for any maneuvering trajectories with positions between -20000 to 20000 m and turn rate between -9 to 9 *pi/180.
+
+5 The code named "LMTT_deta_bidr.py" is used to train our DeepMTT network with arbitrary sample created by code "batchdata_derive3.py".
+
+

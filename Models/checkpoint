@@ -1,0 +1,2 @@
+model_checkpoint_path: "/work/f508509/ljx/matatra/models/LMTT1_deta_bidr/LMTT.ckpt"
+all_model_checkpoint_paths: "/work/f508509/ljx/matatra/models/LMTT1_deta_bidr/LMTT.ckpt"
